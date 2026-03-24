@@ -10,7 +10,7 @@ public class Guru99Loginpage extends BasePage{
 		super(driver);
 		
 	}
-	@FindBy(name = "uids")
+	@FindBy(name = "uid")
 	private WebElement username;
 	@FindBy(name= "password")
 	private WebElement password;
