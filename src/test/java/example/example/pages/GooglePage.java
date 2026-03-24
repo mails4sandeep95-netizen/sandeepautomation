@@ -13,7 +13,7 @@ import org.openqa.selenium.support.FindBy;
 public class GooglePage extends BasePage {
 	
 	/** The searchinput. */
-	@FindBy(name = "q")
+	@FindBy(name = "qs")
 	private WebElement searchinput;
 
 	/**
